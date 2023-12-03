@@ -10,12 +10,15 @@
     <section>
         <div class="container">
           <form action="https://formsubmit.co/ff5c6300ca8f0743de7eb979663e782e" method="POST" >
-      
-            <div class="form-group">
+           <input type="text" name="honey" style="display: none;">
+           <input type="hidden" name="_captcha" value="false" >
+           <input type="hidden" name="_next" value="https://formsubmit.co/form/submission/success.html" >
+
+           <div class="form-group">
               <label for="firstName"> First Name</label>
               <input type="text"  class="form-control"  name="name" id="firstName" required>
             </div>
-      
+       
             <div class="form-group">
               <label for="latsName">Last Name</label>
               <input type="text"  class="form-control"  name="Last Name" id="lastName" required>
@@ -36,5 +39,6 @@
         </div>
         <div id="status"></div>
       </section>
+      <script src="./main.js"></script>
 </body>
 </html>
